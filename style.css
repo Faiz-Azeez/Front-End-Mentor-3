@@ -1,0 +1,95 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+}
+
+
+.main-column{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(213, 19%, 18%);
+    color: white;
+    border-radius: 30px;
+    padding: 30px 25px 30px 15px;
+
+    
+}
+
+.star-image button {
+    background-color:hsl(216, 12%, 54%, 0.1);
+    border-radius: 70%;
+    padding: 12px 15px 12px 15px;
+    border: none;   
+}
+
+.image{
+    margin-left: 10px;
+}
+
+.headding p {
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    color:  hsl(217, 12%, 63%);
+}
+
+.headding h1{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+}
+
+
+.headding p h1{
+    margin-left: 10px;
+}
+
+.round-buttons button{
+
+    background-color:hsl(216, 12%, 54%, 0.1);
+    border-radius: 70%;
+    padding: 16px 20px 16px 20px;
+    border: none;   
+    color: white;
+}
+
+.round-buttons button:hover{
+    background-color:hsl(25, 97%, 53%); ;
+}
+
+.round-buttons{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.submit-button{
+    display: flex;
+    justify-content: center;
+padding-top: 30px;
+}
+
+.sbtn{
+    padding: 10px 129px 10px 120px;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+.sbtn:hover{
+    background-color: #fff;
+    color: hsl(25, 97%, 53%);;
+}
+
+
+
+
