@@ -1,3 +1,4 @@
+
 .container{
     display: flex;
     justify-content: center;
@@ -8,7 +9,7 @@
 }
 
 
-.main-column{
+#main-column{
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -20,7 +21,7 @@
     
 }
 
-.star-image button {
+#simage #imgbg {
     background-color:hsl(216, 12%, 54%, 0.1);
     border-radius: 70%;
     padding: 12px 15px 12px 15px;
@@ -31,24 +32,26 @@
     margin-left: 10px;
 }
 
-.headding p {
+#rating {
     font-family: 'Overpass', sans-serif;
     font-size: 15px;
     font-weight: 200;
     color:  hsl(217, 12%, 63%);
 }
 
-.headding h1{
+#rating h1{
     font-family: 'Overpass', sans-serif;
     font-weight: 700;
+
 }
 
 
-.headding p h1{
+#rating p h1{
     margin-left: 10px;
+    
 }
 
-.round-buttons button{
+#round-buttons button{
 
     background-color:hsl(216, 12%, 54%, 0.1);
     border-radius: 70%;
@@ -57,11 +60,11 @@
     color: white;
 }
 
-.round-buttons button:hover{
+#round-buttons button:hover{
     background-color:hsl(25, 97%, 53%); ;
 }
 
-.round-buttons{
+#round-buttons{
     padding-top: 20px;
     display: flex;
     justify-content: space-evenly;
@@ -90,6 +93,55 @@ padding-top: 30px;
     color: hsl(25, 97%, 53%);;
 }
 
+
+
+/* java script style */
+
+.para1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.para1 p{
+    background-color:hsl(216, 12%, 54%, 0.1);
+    border-radius: 20px ;
+    padding: 10px;
+    color:  hsl(25, 97%, 53%);
+    font-size: 15px;
+
+}
+
+
+.phone-image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+#mheadding p{
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    color:  hsl(217, 12%, 63%);
+}
+
+#mheadding h1{
+    color: white;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+}
+
+
+
+/* java script style */
 
 
 
